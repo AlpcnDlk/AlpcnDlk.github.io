@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jaguar Admin</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="assets/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="assets/vendors/jvectormap/jquery-jvectormap.css">
+    <link rel="stylesheet" href="assets/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendors/owl-carousel-2/owl.theme.default.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <!-- endinject -->
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- End layout styles -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+          <a href="index.html"><img src="assets/images/logo.png" alt="logo" width="130px" height="80px" /></a>
+          <a class="sidebar-brand brand-logo-mini" href="index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
+        </div>
+        <ul class="nav">
+          <br>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="index.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-speedometer"></i>
+              </span>
+              <span class="menu-title">Anasayfa</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="duyurular.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-table-large"></i>
+              </span>
+              <span class="menu-title">Duyurular</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="istatistikler.html">
+              <span class="menu-icon">
+                <i class="mdi mdi-chart-bar"></i>
+              </span>
+              <span class="menu-title">İstatistikler</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_navbar.html -->
+        <nav class="navbar p-0 fixed-top d-flex flex-row">
+          <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+            <a class="navbar-brand brand-logo-mini" href="index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
+          </div>
+          <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item dropdown">
+                <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
+                  <div class="navbar-profile">
+                    <img class="img-xs rounded-circle" src="assets/images/faces/face15.jpg" alt="">
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Alpcan Dalak</p>
+                    <i class="mdi mdi-menu-down d-none d-sm-block"></i>
+                  </div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
+                  <h6 class="p-3 mb-0">Profil</h6>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-settings text-success"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Ayarlar</p>
+                    </div>
+                  </a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-logout text-danger"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Çıkış Yap</p>
+                    </div>
+                  </a>  
+                </div>
+              </li>
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+              <span class="mdi mdi-format-line-spacing"></span>
+            </button>
+          </div>
+        </nav>
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="row">
+              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="d-flex align-items-center align-self-start">
+                          <h3 class="mb-0">53</h3>
+                          <p class="text-success ml-2 mb-0 font-weight-medium">+3.5%</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon icon-box-success ">
+                          <span class="mdi mdi-arrow-top-right icon-item"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <h6 class="text-muted font-weight-normal">Günlük Ziyaret</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="d-flex align-items-center align-self-start">
+                          <h3 class="mb-0">1632</h3>
+                          <p class="text-success ml-2 mb-0 font-weight-medium">+11%</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon icon-box-success">
+                          <span class="mdi mdi-arrow-top-right icon-item"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <h6 class="text-muted font-weight-normal">Aylık Ziyaret</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="d-flex align-items-center align-self-start">
+                          <h3 class="mb-0">17890</h3>
+                          <p class="text-danger ml-2 mb-0 font-weight-medium">-2.4%</p>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon icon-box-danger">
+                          <span class="mdi mdi-arrow-bottom-left icon-item"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <h6 class="text-muted font-weight-normal">Yıllık Ziyaret</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 grid-margin stretch-card">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4 class="card-title">Ziyaretçi Geçmişi</h4>
+                      <canvas id="transaction-history" class="transaction-chart"></canvas>
+                    </div>
+                  </div>
+                </div>
+              <div class="col-md-8 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex flex-row justify-content-between">
+                      <h4 class="card-title mb-1">Duyurular</h4>
+                      <p class="text-muted mb-1">Tarihler</p>
+                    </div>
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="preview-list">
+                          <div class="preview-item border-bottom">
+                            <div class="preview-thumbnail">
+                              <div class="preview-icon bg-primary">
+                                <i class="mdi mdi-file-document"></i>
+                              </div>
+                            </div>
+                            <div class="preview-item-content d-sm-flex flex-grow">
+                              <div class="flex-grow">
+                                <h6 class="preview-subject">Size En Uygun Olanı Seçin</h6>
+                                <p class="text-muted mb-0">Dizel mi? Benzin mi? Tamamen elektrikli mi?</p>
+                              </div>
+                              <div class="mr-auto text-sm-right pt-2 pt-sm-0">
+                                <p class="text-muted mb-0">04.12.2022</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-item border-bottom">
+                            <div class="preview-thumbnail">
+                              <div class="preview-icon bg-success">
+                                <i class="mdi mdi-file-document"></i>
+                              </div>
+                            </div>
+                            <div class="preview-item-content d-sm-flex flex-grow">
+                              <div class="flex-grow">
+                                <h6 class="preview-subject">WLTP</h6>
+                                <p class="text-muted mb-0">Yeni nesil tüketim.</p>
+                              </div>
+                              <div class="mr-auto text-sm-right pt-2 pt-sm-0">
+                                <p class="text-muted mb-0">03.12.2022</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-item border-bottom">
+                            <div class="preview-thumbnail">
+                              <div class="preview-icon bg-info">
+                                <i class="mdi mdi-file-document"></i>
+                              </div>
+                            </div>
+                            <div class="preview-item-content d-sm-flex flex-grow">
+                              <div class="flex-grow">
+                                <h6 class="preview-subject">E-TYPE ZERO</h6>
+                                <p class="text-muted mb-0">Efsane elektrik ile döndü!</p>
+                              </div>
+                              <div class="mr-auto text-sm-right pt-2 pt-sm-0">
+                                <p class="text-muted mb-0">28.11.2022</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-item border-bottom">
+                            <div class="preview-thumbnail">
+                              <div class="preview-icon bg-danger">
+                                <i class="mdi mdi-file-document"></i>
+                              </div>
+                            </div>
+                            <div class="preview-item-content d-sm-flex flex-grow">
+                              <div class="flex-grow">
+                                <h6 class="preview-subject">JAGUAR DENEYİM SÜRÜŞLERİ</h6>
+                                <p class="text-muted mb-0">Kendinizi, yanınızda bir Jaguar Experience eğitmeni ile yüksek performanslı bir Jaguar'ın direksiyonunda, virajlı bir pistte yüksek hızla ilerlerken hayal edin. Jaguar Experience Sürüşü işte tam olarak budur.</p>
+                              </div>
+                              <div class="mr-auto text-sm-right pt-2 pt-sm-0">
+                                <p class="text-muted mb-0">26.11.2022</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="preview-item">
+                            <div class="preview-thumbnail">
+                              <div class="preview-icon bg-warning">
+                                <i class="mdi mdi-file-document"></i>
+                              </div>
+                            </div>
+                            <div class="preview-item-content d-sm-flex flex-grow">
+                              <div class="flex-grow">
+                                <h6 class="preview-subject">THE ART OF PERFORMANCE TURU</h6>
+                                <p class="text-muted mb-0">Ödüllü Jaguar F-PACE ve son derece hızlı Jaguar F-TYPE modeli de dahil olmak üzere Jaguar’ın yüksek performanslı otomobillerini The Art Of Performans Tour'da kullanma heyecanını yaşayın.</p>
+                              </div>
+                              <div class="mr-auto text-sm-right pt-2 pt-sm-0">
+                                <p class="text-muted mb-0">25.11.2022</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row ">
+              <div class="col-12 grid-margin">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Mesajlar</h4>
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                </label>
+                              </div>
+                            </th>
+                            <th> Yazan </th>
+                            <th> Mail </th>
+                            <th> Tel. No </th>
+                            <th> Şirket? </th>
+                            <th> Konu </th>
+                            <th> Yazdığı Tarih </th>
+                            <th> Payment Status </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                </label>
+                              </div>
+                            </td>
+                            <td>
+                              <span class="pl-2">Henry Klein</span>
+                            </td>
+                            <td> henry@hotmail.com </td>
+                            <td> 532 123 1232 </td>
+                            <td>  </td>
+                            <td> Fiyat Listesi </td>
+                            <td> 04.12.2022 </td>
+                            <td>
+                              <div class="badge badge-outline-warning">Cevaplanmadı</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                </label>
+                              </div>
+                            </td>
+                            <td>
+                              <span class="pl-2">Estella Bryan</span>
+                            </td>
+                            <td> estella@hotmail.com </td>
+                            <td> 535 325 3221 </td>
+                            <td> Borusan </td>
+                            <td> Hatalı Bilgi </td>
+                            <td> 03.12.2022 </td>
+                            <td>
+                              <div class="badge badge-outline-warning">Cevaplanmadı</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                </label>
+                              </div>
+                            </td>
+                            <td>
+                              <span class="pl-2">Lucy Abbott</span>
+                            </td>
+                            <td> lucy@gmail.com </td>
+                            <td> 536 332 7867 </td>
+                            <td>  </td>
+                            <td> Teşekkürler </td>
+                            <td> 19.11.2022 </td>
+                            <td>
+                              <div class="badge badge-outline-success">Cevaplandı</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                </label>
+                              </div>
+                            </td>
+                            <td>
+                              <span class="pl-2">Peter Gill</span>
+                            </td>
+                            <td> peter@yahoo.com </td>
+                            <td> 555 546 7545 </td>
+                            <td> Hahacılar </td>
+                            <td> Komikmiş </td>
+                            <td> 19.11.2022 </td>
+                            <td>
+                              <div class="badge badge-outline-success">Cevaplandı</div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <div class="form-check form-check-muted m-0">
+                                <label class="form-check-label">
+                                  <input type="checkbox" class="form-check-input">
+                                </label>
+                              </div>
+                            </td>
+                            <td>
+                              <span class="pl-2">Sallie Reyes</span>
+                            </td>
+                            <td> sallie@zort.com </td>
+                            <td> 523 235 5466 </td>
+                            <td> Taklacılar </td>
+                            <td> Taklaya Geldik </td>
+                            <td> 10.11.2022 </td>
+                            <td>
+                              <div class="badge badge-outline-success">Cevaplandı</div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page -->
+    <script src="assets/vendors/chart.js/Chart.min.js"></script>
+    <script src="assets/vendors/progressbar.js/progressbar.min.js"></script>
+    <script src="assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>
+    <script src="assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+    <script src="assets/vendors/owl-carousel-2/owl.carousel.min.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="assets/js/off-canvas.js"></script>
+    <script src="assets/js/hoverable-collapse.js"></script>
+    <script src="assets/js/misc.js"></script>
+    <script src="assets/js/settings.js"></script>
+    <script src="assets/js/todolist.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page -->
+    <script src="assets/js/dashboard.js"></script>
+    <!-- End custom js for this page -->
+  </body>
+</html>
